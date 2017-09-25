@@ -1,6 +1,6 @@
 ﻿namespace Lab1
 {
-    partial class Form1
+    partial class frmLab1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmLab1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "frmLab1";
+            this.Text = "lab1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
